@@ -78,7 +78,7 @@ length_size_units = (dict(prefix='nm', divider=1e-09, singular='nm', plural='nm'
 
 # Common time units, used for formatting of time spans.
 time_units = (dict(divider=1e-9, singular='nanosecond', plural='nanoseconds', abbreviations=['ns']),
-              dict(divider=1e-6, singular='microsecond', plural='microseconds', abbreviations=['us']),
+              dict(divider=1e-6, singular='microsecond', plural='microseconds', abbreviations=['us', 'µs']),
               dict(divider=1e-3, singular='millisecond', plural='milliseconds', abbreviations=['ms']),
               dict(divider=1, singular='second', plural='seconds', abbreviations=['s', 'sec', 'secs']),
               dict(divider=60, singular='minute', plural='minutes', abbreviations=['m', 'min', 'mins']),
